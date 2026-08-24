@@ -69,4 +69,5 @@ is published. Edit any byte and its signature breaks, which is the point.
 
 There has been no third-party security audit. Patent pending.
 
-<sub>contact@plainreal.com · security@plainreal.com</sub>
+<sub>PlainReal is operated by AgentOS Technologies, Inc., a Delaware corporation.<br>
+contact@plainreal.com · security@plainreal.com</sub>
