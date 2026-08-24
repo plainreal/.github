@@ -58,6 +58,7 @@ is published. Edit any byte and its signature breaks, which is the point.
 | | |
 |---|---|
 | [**verify**](https://github.com/plainreal/verify) | The public verifier. Verification only, deliberately: it reads one record, canonicalises it, hashes it, and checks a signature. Nothing else. |
+| [**sp800-53-mapping**](https://github.com/plainreal/sp800-53-mapping) | NIST SP 800-53 Rev 5 control mapping for AI agent decision evidence artifacts. Which controls a record actually speaks to, stated per control rather than as a claim of coverage. |
 
 ## More
 
