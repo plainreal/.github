@@ -14,7 +14,7 @@ have to.
 
 ---
 
-## What a record proves — and what it does not
+## What a record proves, and what it does not
 
 This distinction is the product, so it is stated first rather than buried.
 
@@ -25,14 +25,14 @@ nothing has changed since. It does **not** prove:
   still a verified record of a bad decision.
 - **that the record is complete.** A signature covers what is present. It
   cannot show what a producer chose never to record.
-- **write-once custody.** Only the declared retention class is signed;
-  confirming an object is genuinely under a storage lock requires access to
+- **write-once custody.** Only the declared retention class is signed.
+  Confirming an object is genuinely under a storage lock requires access to
   the storage account.
 - **when something happened.** That is a timestamp token's job, and published
   sample records carry none.
 - **human non-repudiation.** A record showing that a person approved something
-  proves the system recorded that approval tamper-evidently — not that the
-  person personally signed anything.
+  proves the system recorded that approval tamper-evidently. It does not prove
+  the person personally signed anything.
 
 Anyone claiming otherwise about this system is overstating it.
 
@@ -40,7 +40,7 @@ Anyone claiming otherwise about this system is overstating it.
 
 [**verify.plainreal.com**](https://verify.plainreal.com) checks a record's
 signature entirely in your browser. It makes no network request and stores
-nothing — open the developer tools and watch.
+nothing. Open the developer tools and watch.
 
 The page is [open source](https://github.com/plainreal/verify), so you can read
 it before you run it, and each release is a signed tag naming the SHA-256 of the
@@ -61,11 +61,11 @@ is published. Edit any byte and its signature breaks, which is the point.
 
 ## More
 
-- [plainreal.com](https://plainreal.com) — what this is for, and who it is not for
-- [Regulatory coverage](https://plainreal.com/regulations) — OCC, NYDFS, EU AI Act, GDPR, SOC 2, NIST SP 800-53, FDA, HIPAA
-- [EU AI Act Article 12](https://plainreal.com/article12) — record-keeping requirements and a readiness self-assessment
-- [Security](https://plainreal.com/security) — OWASP Agentic AI Top 10 mapping
-- [llms.txt](https://plainreal.com/llms.txt) — for agents reading this
+- [plainreal.com](https://plainreal.com): what this is for, and who it is not for
+- [Regulatory coverage](https://plainreal.com/regulations): OCC, NYDFS, EU AI Act, GDPR, SOC 2, NIST SP 800-53, FDA, HIPAA
+- [EU AI Act Article 12](https://plainreal.com/article12): record-keeping requirements and a readiness self-assessment
+- [Security](https://plainreal.com/security): OWASP Agentic AI Top 10 mapping
+- [llms.txt](https://plainreal.com/llms.txt): for agents reading this
 
 There has been no third-party security audit. Patent pending.
 
